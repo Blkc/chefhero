@@ -4,8 +4,8 @@ import moment from 'moment'
 
 import { fetchOrderSuccess } from '../actions'
 
-export default function Table({ selectedSupplier }) {
-  const original_orders = useSelector(state => (Object.values(state.orders) || []))
+export default function Table({ orders }) {
+  /* const original_orders = useSelector(state => (Object.values(state.orders) || []))
   const [orders, setOrders] = useState(original_orders)
 
   const dispatch = useDispatch()
@@ -28,7 +28,7 @@ export default function Table({ selectedSupplier }) {
       .then(json => {
         dispatch(fetchOrderSuccess(json.data))
       })
-  }
+  } */
 
   function renderRow(order, i) {
     const tagStyle = order.orderBuyerStatus === 'Paid' ? { backgroundColor: '#b0ddcb' } : { backgroundColor: '#c4c4ff' }

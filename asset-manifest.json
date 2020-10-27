@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/chefhero/static/css/main.24f8c164.chunk.css",
-    "main.js": "/chefhero/static/js/main.f4842ead.chunk.js",
-    "main.js.map": "/chefhero/static/js/main.f4842ead.chunk.js.map",
+    "main.js": "/chefhero/static/js/main.c30253a6.chunk.js",
+    "main.js.map": "/chefhero/static/js/main.c30253a6.chunk.js.map",
     "runtime-main.js": "/chefhero/static/js/runtime-main.b340cd32.js",
     "runtime-main.js.map": "/chefhero/static/js/runtime-main.b340cd32.js.map",
     "static/js/2.557246ac.chunk.js": "/chefhero/static/js/2.557246ac.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.b340cd32.js",
     "static/js/2.557246ac.chunk.js",
     "static/css/main.24f8c164.chunk.css",
-    "static/js/main.f4842ead.chunk.js"
+    "static/js/main.c30253a6.chunk.js"
   ]
 }

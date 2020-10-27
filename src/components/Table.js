@@ -35,10 +35,10 @@ export default function Table({ selectedSupplier }) {
 
     return (
       <tr key={i} className="order">
-        <td><span className="tag" style={tagStyle}>{order.orderBuyerStatus.toUpperCase()}</span></td>
-        <td>{moment(order.deliveryDay, 'YYYY-MM-DD').format('MMM. DD, YYYY')}</td>
+        <td><span className="tag" style={tagStyle}>{(order.orderBuyerStatus || '').toUpperCase()}</span></td>
+        <td>{order.deliveryDay ? moment(order.deliveryDay, 'YYYY-MM-DD').format('MMM. DD, YYYY') : null}</td>
         <td>
-          {order.vendorName} 
+          {order.vendorName}
           {!order.isBYOS ? <span className="market">MARKET</span> : null} 
           {order.isPendingVendorOnboarding ? <span className="first">1st</span> : null}
         </td>

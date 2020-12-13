@@ -6,6 +6,7 @@ import reducers from './reducers'
 import './App.scss'
 
 import MainApp from './containers/MainApp'
+import SearchApp from './containers/SearchApp'
 
 const store = createStore(
   reducers,
@@ -15,7 +16,8 @@ const store = createStore(
 function App() {
   return (
     <Provider store={store}>
-      <MainApp />
+      {/* <MainApp /> */}
+      <SearchApp />
     </Provider>
   );
 }
